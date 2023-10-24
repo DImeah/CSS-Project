@@ -1,0 +1,76 @@
+/* styles */
+body {
+  background-color: skyblue;
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+ul li,
+ol li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(247, 249, 249);
+}
+
+hr {
+  border: 2px solid rgb(247, 249, 249);
+}
+
+.custom-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #3d6c9ad6;
+  color: #fff;
+  padding: 5px;
+}
+
+#header-logo {
+  width: 40px;
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  padding: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .custom-header {
+    /* Adjust styles for mobile header */
+    padding: 10px;
+  }
+}
+
+#about {
+  background-color: #176b87;
+}
+
+#work {
+  background-color: #64ccc5;
+}
+
+#resume {
+  background-color: #dafffb;
+}
+
+#contact {
+  background-color: #176b87;
+}
